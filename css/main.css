@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+#header {
+    color: #b1b5da;
+    padding: 15px;
+    text-align: center;
+    background-image: url(../img/camping-zoetermeer-banner.png);
+}
+
+.wistjedat {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.wistjedat p {
+    background-color: #fcdea3;
+    color: #b1b5da;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 75%;
+    padding: 0 20px;
+}
+
+#copyright {
+    background-color: #b1b5da;
+    color: #fcdea3;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.main_1,
+.main_2 {
+    height: 250px;
+
+}
+
+.main_1 img,
+.main_2 img {
+    float: right;
+    width: 25%;
+}
+
+@media only screen and (max-width: 789px) {
+
+    .wistjedat,
+    .main,
+    .main_1 img,
+    .main_2 img {
+        width: 100%;
+        float: right;
+        clear: both;
+    }
+    .main_1,
+    .main_2{
+        display: inline-block;
+        position: relative;
+    }
+}
